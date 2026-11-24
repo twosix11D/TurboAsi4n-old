@@ -1,6 +1,6 @@
 # TurboTV — Repo (Cydia / Sileo / Zebra)
 
-Repo của **TurboTV** — app xem YouTube 1080p cho iPad mini 1 (iOS 6 / iOS 9, chip A5) và iPad mini 2 (iOS 12). Dùng được với **Cydia, Sileo và Zebra** (cùng 1 URL source).
+Repo của **TurboTV** — app xem YouTube 1080p cho iPad mini 1 (iOS 6 / iOS 9, chip A5), iPad mini 2 (iOS 12), iPhone và iPod touch. Dùng được với **Cydia, Sileo và Zebra** (cùng 1 URL source).
 
 ## Thêm source
 
@@ -14,11 +14,11 @@ https://twosix11D.github.io/TurboAsi4n/
 - **Sileo:** Sources → dấu `+`, dán URL → Add Source, rồi Refresh.
 - **Zebra:** Sources → Add, dán URL → Add.
 
-Rồi vào repo **TurboTV** và cài **TurboTV 1.17.3**.
+Rồi vào repo **TurboTV** và cài **TurboTV 1.17.4**.
 
 ## Tải trực tiếp file .deb
 
-[debs/com.bun.tubepro_1.17.3_iphoneos-arm.deb](debs/com.bun.tubepro_1.17.3_iphoneos-arm.deb) (2.374.070 byte, MD5 `a0911c5e027802e928571ccd8b72f263`)
+[debs/com.bun.tubepro_1.17.4_iphoneos-arm.deb](debs/com.bun.tubepro_1.17.4_iphoneos-arm.deb) (2.915.836 byte, MD5 `0fea83cc2c2f6cfff9f5618e7c777b85`)
 
 Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.
 
@@ -26,7 +26,7 @@ Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.
 
 | Gói | Phiên bản | Ghi chú |
 |---|---|---|
-| com.bun.tubepro (TurboTV) | 1.17.3 | Sửa lỗi LOGIN_REQUIRED ngẫu nhiên (tự seed lại visitorData mới rồi thử lại, tối đa 5 lần; áp dụng cả SABR); log chẩn đoán đăng nhập từng bước (lấy mã / chờ kích hoạt / lỗi Google); thử lại bằng client TV kèm token khi đã đăng nhập; sửa phát nền im ngay khi bấm Home (luôn kích hoạt âm thanh nền song song với PiP + ghi log trạng thái phát 1s/3s/10s sau khi vào nền). Giữ nguyên 1.17.2 (Back thu nhỏ mini player; lặp lại video; bấm Home tự vào PiP; sửa kẹt phát nền; sửa log ghi version; depiction cho Cydia/Sileo/Zebra; bố cục dists/ chuẩn Debian + Packages.xz) + donate PayPal thật (paypal.me/turboasi4n) + mã VietQR của 1.17.1 và mọi tính năng 1.17 |
+| com.bun.tubepro (TurboTV) | 1.17.4 | Tương thích iPhone/iPod touch (ảnh mở app cỡ iPhone 320x480/640x960/640x1136 + icon 57x57/114x114; bố cục màn hình hẹp <500pt: thanh logo 180x32, nút phát/tua nhỏ lại, mini player gọn; iPad giữ nguyên); iPod touch chạy được (không dùng API điện thoại/SIM). Giữ nguyên 1.17.3 (sửa lỗi LOGIN_REQUIRED ngẫu nhiên (tự seed lại visitorData mới rồi thử lại, tối đa 5 lần; áp dụng cả SABR); log chẩn đoán đăng nhập từng bước (lấy mã / chờ kích hoạt / lỗi Google); thử lại bằng client TV kèm token khi đã đăng nhập; sửa phát nền im ngay khi bấm Home (luôn kích hoạt âm thanh nền song song với PiP + ghi log trạng thái phát 1s/3s/10s sau khi vào nền). Giữ nguyên 1.17.2 (Back thu nhỏ mini player; lặp lại video; bấm Home tự vào PiP; sửa kẹt phát nền; sửa log ghi version; depiction cho Cydia/Sileo/Zebra; bố cục dists/ chuẩn Debian + Packages.xz) + donate PayPal thật (paypal.me/turboasi4n) + mã VietQR của 1.17.1 và mọi tính năng 1.17 |
 
 ## Cấu trúc repo
 

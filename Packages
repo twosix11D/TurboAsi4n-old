@@ -1,15 +1,15 @@
 Package: com.bun.tubepro
 Architecture: iphoneos-arm
-Version: 1.17.3
+Version: 1.17.4
 Maintainer: Bun
-Installed-Size: 3452
-Filename: debs/com.bun.tubepro_1.17.3_iphoneos-arm.deb
-Size: 2374070
-MD5sum: a0911c5e027802e928571ccd8b72f263
-SHA1: 238731ca34d30a57b7f4783eabb268b5d278c54f
-SHA256: 7bbfe54839c5446f326bf1067a915464672e6a8e223bc47a692780af3fb5855c
-SHA512: 9d03bf4f5ea1113ff31062c80eb9f5f3c6628122318ffd4f67f07ba83a6246004e79e433a5223fa94cb99da45239f41845043f21e74a3485c8f1c5d276ba94d8
-Description: YouTube client for iOS 6 + iOS 12 - 1080p playback on iPad mini 1 (armv7) and mini 2 (arm64). v1.17.3: sua LOGIN_REQUIRED (video doi dang nhap) — fallback TVHTML5 kem Bearer token device-flow khi da dang nhap; log chan doan dang nhap day du moi buoc. Giu nguyen 1.17.2 (Back thu nho mini player; lap lai video; Home tu bat PiP; log xoay vong; watchdog ReadyToPlay 20s; dists Sileo/Zebra) + 1.17.1 (donate PayPal that paypal.me/turboasi4n + ma QR that + VietQR) + 1.17 (sua dang nhap xong khong phat duoc, phat nen, icon to hon, live 1080p, trang kenh, hen gio tat, 10 ngon ngu, VISIONOS 1.02, 4 theme glass, lich su xem, mini player, PiP). Universal armv7+arm64.
+Installed-Size: 3984
+Filename: debs/com.bun.tubepro_1.17.4_iphoneos-arm.deb
+Size: 2915836
+MD5sum: 0fea83cc2c2f6cfff9f5618e7c777b85
+SHA1: 3d3172d07db3ce9971f59649b8259f994b1c24cd
+SHA256: 56265aad09792c1a5a2fc747a8ef2b8acdaf166dcdc6c67f320f251f0e049365
+SHA512: 0b1818028d1ea5774c83317c2f473eddbd6a813196a8801e701c1575899693d8779b36b050754f835cd9db7df8fdad58876d2bfd9b78abea7cbd27005d63d94e
+Description: YouTube client for iOS 6 + iOS 12 - 1080p playback on iPad mini 1 (armv7) and mini 2 (arm64), iPhone/iPod touch. v1.17.4: tuong thich iPhone/iPod touch — anh mo app + icon co iPhone, bo cuc thich ung man hinh hep (<500pt: thanh logo nho lai, nut dieu khien vua man hinh, mini player gon). Giu nguyen 1.17.3: sua LOGIN_REQUIRED (video doi dang nhap) — fallback TVHTML5 kem Bearer token device-flow khi da dang nhap; log chan doan dang nhap day du moi buoc. Giu nguyen 1.17.2 (Back thu nho mini player; lap lai video; Home tu bat PiP; log xoay vong; watchdog ReadyToPlay 20s; dists Sileo/Zebra) + 1.17.1 (donate PayPal that paypal.me/turboasi4n + ma QR that + VietQR) + 1.17 (sua dang nhap xong khong phat duoc, phat nen, icon to hon, live 1080p, trang kenh, hen gio tat, 10 ngon ngu, VISIONOS 1.02, 4 theme glass, lich su xem, mini player, PiP). Universal armv7+arm64.
 Name: TurboTV
 Depiction: https://twosix11D.github.io/TurboAsi4n/depiction.html
 SileoDepiction: https://twosix11D.github.io/TurboAsi4n/depiction.json
