@@ -1,0 +1,17 @@
+Package: com.bun.tubepro
+Architecture: iphoneos-arm
+Version: 1.17.2
+Maintainer: Bun
+Installed-Size: 3436
+Filename: debs/com.bun.tubepro_1.17.2_iphoneos-arm.deb
+Size: 2363918
+MD5sum: 6c71fafbf687a66a3294f78beddda1ef
+SHA1: 6cbd9d4008fd6fc2763326d63568576871996316
+SHA256: d1755ce99a99e4d52cb794f69e8e93e5a3513298480b1fccbda4e2fc8a6299e3
+SHA512: 919533e35875d915ddb257c7e4cf2ea7ca02c02f39b345ee809a8571202afb97f601fb5f8cc1466baa7e523cb54752af4cd9df84a7de2be32407da373740785b
+Description: YouTube client for iOS 6 + iOS 12 - 1080p playback on iPad mini 1 (armv7) and mini 2 (arm64). v1.17.2: Back thu nho mini player; lap lai video; Home tu bat PiP (iOS 9+); log xoay vong + ghi version moi file moi; item khong ReadyToPlay sau 20s tu chuyen duong; depiction cho Cydia/Sileo/Zebra. Giu nguyen 1.17.1 (donate PayPal that paypal.me/turboasi4n + ma QR that + VietQR) + 1.17 (sua dang nhap xong khong phat duoc, phat nen, icon to hon, live 1080p, trang kenh, hen gio tat, 10 ngon ngu, VISIONOS 1.02, 4 theme glass, lich su xem, mini player, PiP). Universal armv7+arm64.
+Name: TurboTV
+Depiction: https://twosix11D.github.io/TurboAsi4n/depiction.html
+SileoDepiction: https://twosix11D.github.io/TurboAsi4n/depiction.json
+Icon: https://twosix11D.github.io/TurboAsi4n/CydiaIcon.png
+
