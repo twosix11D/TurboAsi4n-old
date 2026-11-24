@@ -3,17 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TurboTV — Cydia Repo</title>
+<title>TurboTV — Cydia / Sileo / Zebra Repo</title>
 <style>
 body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:640px;margin:40px auto;padding:0 16px;color:#222;line-height:1.6}
-h1{color:#00BFFF} a{color:#0077cc} code{background:#f0f0f0;padding:2px 6px;border-radius:4px;word-break:break-all}
-.btn{display:inline-block;background:#00BFFF;color:#fff!important;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:bold;margin:8px 0}
+h1{color:#00BFFF} h2{color:#00BFFF} a{color:#0077cc} code{background:#f0f0f0;padding:2px 6px;border-radius:4px;word-break:break-all}
+.btn{display:inline-block;background:#00BFFF;color:#fff!important;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:bold;margin:8px 4px 8px 0}
+.warn{background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:10px 12px}
 </style>
 </head>
 <body>
-<h1>TurboTV — Cydia Repo</h1>
-<p>Repo Cydia chính thức của <b>TurboTV</b> — app xem YouTube 1080p cho iPad mini 1 (iOS 6 / iOS 9, chip A5) và iPad mini 2 (iOS 12).</p>
-<p>Phiên bản hiện có: <b>TurboTV 1.17.1</b> (com.bun.tubepro) — mục donate dùng link PayPal thật (paypal.me/turboasi4n) + mã VietQR nhận tiền của Long, lời kêu gọi ủng hộ đổi theo ngôn ngữ app. Giữ nguyên mọi tính năng 1.17.</p>
+<h1>TurboTV — Repo</h1>
+<p>Repo chính thức của <b>TurboTV</b> — app xem YouTube 1080p cho iPad mini 1 (iOS 6 / iOS 9, chip A5) và iPad mini 2 (iOS 12). Dùng được với <b>Cydia, Sileo và Zebra</b> (cùng 1 URL source).</p>
+<p>Phiên bản hiện có: <b>TurboTV 1.17.2</b> (com.bun.tubepro) — Back thu nhỏ mini player, lặp lại video, bấm Home tự vào PiP (iOS 9+), sửa kẹt phát nền và sửa log ghi version. Giữ nguyên donate PayPal thật (paypal.me/turboasi4n) + mã VietQR của 1.17.1 và mọi tính năng 1.17.</p>
+
+<div class="warn"><b>Nhập đúng URL này</b> (có dấu <code>/</code> cuối, KHÔNG phải link github.com):<br><code>https://twosix11D.github.io/TurboAsi4n/</code></div>
 
 <h2>Thêm repo vào Cydia</h2>
 <a class="btn" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://twosix11D.github.io/TurboAsi4n/">Thêm vào Cydia</a>
@@ -22,11 +25,35 @@ h1{color:#00BFFF} a{color:#0077cc} code{background:#f0f0f0;padding:2px 6px;borde
 <li>Mở <b>Cydia</b> → tab <b>Sources</b> → <b>Edit</b> → <b>Add</b>.</li>
 <li>Dán URL này rồi bấm <b>Add Source</b>:
 <br><code>https://twosix11D.github.io/TurboAsi4n/</code></li>
-<li>Chờ Cydia tải xong, vào repo <b>TurboTV</b> → cài <b>TurboTV 1.17.1</b>.</li>
+<li>Chờ Cydia tải xong, vào repo <b>TurboTV</b> → cài <b>TurboTV 1.17.2</b>.</li>
 </ol>
 
+<h2>Thêm repo vào Sileo</h2>
+<a class="btn" href="sileo://source/https://twosix11D.github.io/TurboAsi4n/">Thêm vào Sileo</a>
+<p>Hoặc thêm tay:</p>
+<ol>
+<li>Mở <b>Sileo</b> → tab <b>Sources</b> → bấm dấu <b>+</b> (góc trên).</li>
+<li>Dán URL này rồi bấm <b>Add Source</b>:
+<br><code>https://twosix11D.github.io/TurboAsi4n/</code></li>
+<li>Chờ Sileo <b>Refresh</b> xong, tìm <b>TurboTV</b> → cài bản <b>1.17.2</b>.</li>
+</ol>
+<p><small>Lưu ý: Sileo tìm file Release theo đường chuẩn <code>dists/stable/Release</code> — repo này đã có đủ bố cục chuẩn (dists/ + Packages.xz) từ bản 1.17.2. Nếu Sileo báo lỗi, chụp màn hình lỗi gửi nhà phát triển.</small></p>
+
+<h2>Thêm repo vào Zebra</h2>
+<a class="btn" href="zbra://sources/add/https://twosix11D.github.io/TurboAsi4n/">Thêm vào Zebra</a>
+<p>Hoặc thêm tay:</p>
+<ol>
+<li>Mở <b>Zebra</b> → tab <b>Sources</b> → <b>Add</b>.</li>
+<li>Dán URL này rồi bấm <b>Add</b>:
+<br><code>https://twosix11D.github.io/TurboAsi4n/</code></li>
+<li>Chờ Zebra tải xong, tìm <b>TurboTV</b> → cài bản <b>1.17.2</b>.</li>
+</ol>
+
+<h2>Trang mô tả gói</h2>
+<p><a href="depiction.html">depiction.html</a> (Cydia/Zebra) · <a href="depiction.json">depiction.json</a> (Sileo native)</p>
+
 <h2>Tải trực tiếp file .deb</h2>
-<p><a href="debs/com.bun.tubepro_1.17.1_iphoneos-arm.deb">com.bun.tubepro_1.17.1_iphoneos-arm.deb</a> (2.357.240 byte, MD5 <code>be480682949770aadd77636a75bbdd6e</code>)</p>
+<p><a href="debs/com.bun.tubepro_1.17.2_iphoneos-arm.deb">com.bun.tubepro_1.17.2_iphoneos-arm.deb</a> (2.363.918 byte, MD5 <code>6c71fafbf687a66a3294f78beddda1ef</code>)</p>
 <p>Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.</p>
 
 <p><small>Repo: <a href="https://github.com/twosix11D/TurboAsi4n">github.com/twosix11D/TurboAsi4n</a></small></p>

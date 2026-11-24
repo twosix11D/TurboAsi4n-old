@@ -6,15 +6,20 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: TurboTV Cydia repository
+Date: Tue, 24 Nov 2026 15:41:53 UTC
+
 MD5Sum:
- f1af40176c7dc2003f9750b906a211b7 898 Packages
- f7c5a4dfdcc2a103510bbd19dba8c1cd 622 Packages.gz
- 5f8046e97e5f48eaa1a9ca81d64dbcbd 661 Packages.bz2
+ 0174c75549c3f62ff50f8ed8faec5c69 1271 Packages
+ 94097bb4c5429b74274ac53dda3ad009 803 Packages.gz
+ 86c921bd07d41958a421bca39169d2ac 857 Packages.bz2
+ 31605284e0aabed2f3204c21ff272a99 892 Packages.xz
 SHA1:
- 9c4b6d85224999cef1ba01891b270c709aacf1dc 898 Packages
- 0180c8739b45662cd33d6bc9279ad087c73d404e 622 Packages.gz
- 55eaffa0e1b4fd673ecc35503f875a9d976d8abe 661 Packages.bz2
+ 0ecf6b5b2e21ce3a7fba8522e86032c570787fca 1271 Packages
+ cb1af425ebfd7e23e658bb6ba0b456503c449631 803 Packages.gz
+ 4e7d40e2726227a9c89fff1b0d5328239155703f 857 Packages.bz2
+ f51e488381b42b13b7bdba9e99686a03c3fd48bf 892 Packages.xz
 SHA256:
- 46a15e9518e899de0aa7697af23dd427a17b6b41edfba483f8f2406ffa14ad90 898 Packages
- 349c3ee45707c4c45181d716465ee89c27a36a434a68f8e04bef0893178a236c 622 Packages.gz
- 48bb484e1bbaacec5f434084c9e08c1be77898b1bc7dd35e213deb33e73eda49 661 Packages.bz2
+ 9422be641327a0530734913f7856b2ebf4a82ecfcbe38f735347463f975916f9 1271 Packages
+ 58ab8ec82912cc3a57e6c99fd36d85863ac910c61f8204196c3499d8aecd52ab 803 Packages.gz
+ cab285b84d131ecf3fc94a3a22987f7588c7bdd74bb02fa088d2cad3209a7ad5 857 Packages.bz2
+ c0653f15ed59bf4ebf29f9c854f6f36ce4caa10d854b6214b4ae2365aafc9812 892 Packages.xz
