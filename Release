@@ -1,0 +1,20 @@
+Origin: TurboTV
+Label: TurboTV
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: TurboTV Cydia repository
+MD5Sum:
+ 4d35fc9d87a0cc9f9912e688c5780c83 838 Packages
+ 92b90c77780a3b427c1c5f0757d178a0 598 Packages.gz
+ 1096decaea0686a591b2aedb612356f8 652 Packages.bz2
+SHA1:
+ 4cb557d02499552a38b361d196b7c1549f938a7b 838 Packages
+ ac3f6bbb262f9a784bb2ebba92a347934f593f2d 598 Packages.gz
+ 5d71cd5b15eb854d3229ad4554efcce172d9c182 652 Packages.bz2
+SHA256:
+ 85a83525b4e8cfd850b06f12d82643e3371e39ad05bc79209827770b570edb1c 838 Packages
+ 23e37c91e78725e77d76c9754d1139ffdef18114b6ab1a62888ebe6ced73c326 598 Packages.gz
+ 1e14108d1fed9fe68c4b299376c20321e94d423fcc18d575594391daea14f28e 652 Packages.bz2
