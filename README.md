@@ -10,11 +10,11 @@ Mở Cydia → Sources → Edit → Add, dán URL:
 https://twosix11D.github.io/TurboAsi4n/
 ```
 
-Rồi vào repo **TurboTV** và cài **TurboTV 1.17**.
+Rồi vào repo **TurboTV** và cài **TurboTV 1.17.1**.
 
 ## Tải trực tiếp file .deb
 
-[debs/com.bun.tubepro_1.17_iphoneos-arm.deb](debs/com.bun.tubepro_1.17_iphoneos-arm.deb) (2.261.662 byte, MD5 `a650dcb0039ff96dee0f2896006c7725`)
+[debs/com.bun.tubepro_1.17.1_iphoneos-arm.deb](debs/com.bun.tubepro_1.17.1_iphoneos-arm.deb) (2.357.240 byte, MD5 `be480682949770aadd77636a75bbdd6e`)
 
 Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.
 
@@ -22,7 +22,7 @@ Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.
 
 | Gói | Phiên bản | Ghi chú |
 |---|---|---|
-| com.bun.tubepro (TurboTV) | 1.17 | Sửa lỗi đăng nhập xong không phát được (gỡ Bearer khỏi /player); back không tự bật PiP; phát nền (không pause audio theo video stall); icon to hơn (tab 40pt, thanh Logo); xem live 1080p; mở được trang kênh; hẹn giờ tắt video; mục donate QR + PayPal (chờ link thật); 10 ngôn ngữ |
+| com.bun.tubepro (TurboTV) | 1.17.1 | Mục donate dùng link PayPal thật (paypal.me/turboasi4n) + mã VietQR nhận tiền của Long, lời kêu gọi ủng hộ đổi theo ngôn ngữ app. Giữ nguyên mọi tính năng 1.17 |
 
 ## Cấu trúc repo
 
