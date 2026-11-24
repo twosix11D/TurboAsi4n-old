@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TurboTV 1.17.2 — Depiction</title>
+<title>TurboTV 1.17.3 — Depiction</title>
 <style>
 body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:16px;color:#222;line-height:1.6;background:#fff}
 h1{color:#00BFFF;margin:8px 0 0} h2{color:#00BFFF;border-bottom:1px solid #eee;padding-bottom:4px}
@@ -19,11 +19,11 @@ small{color:#888}
 <body>
 <img class="icon" src="CydiaIcon.png" alt="TurboTV icon">
 <h1 style="text-align:center">TurboTV</h1>
-<p style="text-align:center"><b>Phiên bản 1.17.2</b> · com.bun.tubepro · Nhà phát triển: Bun</p>
+<p style="text-align:center"><b>Phiên bản 1.17.3</b> · com.bun.tubepro · Nhà phát triển: Bun</p>
 
 <table>
 <tr><td>Tương thích</td><td>iOS 6.0 trở lên — iPad mini 1 (iOS 6 / iOS 9, chip A5) và iPad mini 2 (iOS 12)</td></tr>
-<tr><td>Dung lượng</td><td>2.363.918 byte tải về (~2,4 MB) · ~3,4 MB sau khi cài</td></tr>
+<tr><td>Dung lượng</td><td>2.370.100 byte tải về (~2,4 MB) · ~3,4 MB sau khi cài</td></tr>
 <tr><td>Repo</td><td><a href="https://twosix11D.github.io/TurboAsi4n/">twosix11D.github.io/TurboAsi4n/</a></td></tr>
 <tr><td>Mã nguồn</td><td><a href="https://github.com/twosix11D/TurboAsi4n">github.com/twosix11D/TurboAsi4n</a></td></tr>
 </table>
@@ -36,6 +36,14 @@ small{color:#888}
 <li>Mini player trong app + PiP hệ thống (iOS 9+)</li>
 <li>Lặp lại video, hẹn giờ tắt 15–90 phút</li>
 <li>Đăng nhập Google (device flow, không lưu mật khẩu)</li>
+</ul>
+
+<h2>Có gì mới trong 1.17.3</h2>
+<ul>
+<li><b>Sửa lỗi LOGIN_REQUIRED ngẫu nhiên:</b> cùng một video lúc phát được lúc báo "YouTube trả về: LOGIN_REQUIRED" — nay app tự seed lại visitorData mới rồi thử lại (đổi client VISIONOS → ANDROID → thử lại với visitorData mới), tối đa 5 lần thử rồi mới báo lỗi. Áp dụng cả cho SABR.</li>
+<li><b>Đăng nhập Google:</b> thêm log chẩn đoán từng bước (lấy mã, chờ kích hoạt, lỗi Google) để biết đăng nhập lỗi ở bước nào; khi đã đăng nhập thì video lỗi LOGIN_REQUIRED được thử lại bằng client TV kèm token.</li>
+<li><b>Log rõ hơn:</b> mỗi lần lấy link lỗi đều ghi client nào, có visitorData không, trạng thái YouTube trả về đầy đủ.</li>
+<li><b>Sửa phát nền im ngay khi bấm Home (1.17.2):</b> bấm Home để bật PiP nhưng PiP khởi động chậm/thất bại thì trước đây app không kích hoạt lại âm thanh nên im luôn — nay luôn kích hoạt âm thanh nền song song với PiP, và ghi log trạng thái phát 1s/3s/10s sau khi vào nền để chẩn đoán.</li>
 </ul>
 
 <h2>Có gì mới trong 1.17.2</h2>
