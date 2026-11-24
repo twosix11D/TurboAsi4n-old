@@ -1,15 +1,13 @@
 Package: com.bun.tubepro
-Version: 1.16
+Version: 1.17
 Architecture: iphoneos-arm
 Maintainer: Bun
-Installed-Size: 3120
-Filename: debs/com.bun.tubepro_1.16_iphoneos-arm.deb
-Size: 2148216
-MD5sum: 58e7c7095cf4f8c78f8e3eafc8f2f2e9
-SHA1: 58c1e60d812cad8090d902fb432b6eec56ad20de
-SHA256: dd03902c4d23d52627b9b1e19670dfdf80fab17d6b786af1d11a85244e2b8e58
-Section: Multimedia
-Description: YouTube client for iOS 6 + iOS 12 - 1080p playback on iPad mini 1 (armv7) and mini 2 (arm64). v1.16: sua crash mo app (guard objectForKey o lich su/WARP/SABR + breadcrumb), bo vach ngan giua cac hang, the video glass bo tron, Shorts day du (avatar, dang ky, like, chia se, mo ta mo rong), thanh dieu khien + drawer co dinh, dang nhap Google bang ma kich hoat (device flow, Troubadour), phat am thanh duoi nen that (setActive + Control Center/lock screen), mini player trong app + PiP iOS 9, icon + splash logo Long gui (Splash C). Giu nguyen 1.15.2 (SIGPIPE fix, VISIONOS 1.02, 4 theme glass, lich su xem). Universal armv7+arm64.
-Author: Bun
+Installed-Size: 3324
+Filename: debs/com.bun.tubepro_1.17_iphoneos-arm.deb
+Size: 2261662
+MD5sum: a650dcb0039ff96dee0f2896006c7725
+SHA1: ccd45cb8dd3bbd5ff6867bf3cb7d0d1aef4d8413
+SHA256: e8da4689e71c12781daa71697063b09872a1b6edc99f4e98e42206c5f48cc8ca
+Description: YouTube client for iOS 6 + iOS 12 - 1080p playback on iPad mini 1 (armv7) and mini 2 (arm64). v1.17: P0 sua dang nhap xong khong phat duoc (go Bearer TV khoi /player VISIONOS/ANDROID), back khong tu bat PiP (tat PiP vo dieu kien), phat nen (khong pause audio theo video stall, tu phuc hoi o nen, breadcrumb + log loi setActive); P1 icon to hon (tab 40pt, nut phat, thanh Logo), live 1080p (hlsManifestUrl, phat thang HLS), trang kenh (/browse, dang ky id|ten), hen gio tat (thoi diem tuyet doi); P2 donate QR + PayPal (placeholder, cho link that), ngon ngu 10 thu tieng. Giu nguyen 1.16 (guard crash mo app, SIGPIPE, VISIONOS 1.02, 4 theme glass, lich su xem, mini player, PiP). Universal armv7+arm64.
 Name: TurboTV
 

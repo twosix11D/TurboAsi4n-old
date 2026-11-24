@@ -10,11 +10,11 @@ Mở Cydia → Sources → Edit → Add, dán URL:
 https://twosix11D.github.io/TurboAsi4n/
 ```
 
-Rồi vào repo **TurboTV** và cài **TurboTV 1.16**.
+Rồi vào repo **TurboTV** và cài **TurboTV 1.17**.
 
 ## Tải trực tiếp file .deb
 
-[debs/com.bun.tubepro_1.16_iphoneos-arm.deb](debs/com.bun.tubepro_1.16_iphoneos-arm.deb) (2.148.216 byte, MD5 `58e7c7095cf4f8c78f8e3eafc8f2f2e9`)
+[debs/com.bun.tubepro_1.17_iphoneos-arm.deb](debs/com.bun.tubepro_1.17_iphoneos-arm.deb) (2.261.662 byte, MD5 `a650dcb0039ff96dee0f2896006c7725`)
 
 Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.
 
@@ -22,7 +22,7 @@ Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.
 
 | Gói | Phiên bản | Ghi chú |
 |---|---|---|
-| com.bun.tubepro (TurboTV) | 1.16 | Sửa crash khi mở app (guard objectForKey ở lịch sử/WARP/SABR + breadcrumb); bỏ vạch ngang giữa các hàng; thẻ video glass bo tròn; Shorts đủ nội dung (avatar, Đăng ký, like, chia sẻ, mô tả); thanh điều khiển + drawer cố định; đăng nhập Google bằng mã kích hoạt (device flow); phát âm thanh dưới nền thật (Control Center/lock screen); mini player trong app + PiP iOS 9; icon + splash logo Long gửi (Splash C) |
+| com.bun.tubepro (TurboTV) | 1.17 | Sửa lỗi đăng nhập xong không phát được (gỡ Bearer khỏi /player); back không tự bật PiP; phát nền (không pause audio theo video stall); icon to hơn (tab 40pt, thanh Logo); xem live 1080p; mở được trang kênh; hẹn giờ tắt video; mục donate QR + PayPal (chờ link thật); 10 ngôn ngữ |
 
 ## Cấu trúc repo
 
