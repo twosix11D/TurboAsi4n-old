@@ -14,11 +14,11 @@ https://twosix11D.github.io/TurboAsi4n/
 - **Sileo:** Sources → dấu `+`, dán URL → Add Source, rồi Refresh.
 - **Zebra:** Sources → Add, dán URL → Add.
 
-Rồi vào repo **TurboTV** và cài **TurboTV 1.17.4**.
+Rồi vào repo **TurboTV** và cài **TurboTV 1.17.5**.
 
 ## Tải trực tiếp file .deb
 
-[debs/com.bun.tubepro_1.17.4_iphoneos-arm.deb](debs/com.bun.tubepro_1.17.4_iphoneos-arm.deb) (2.915.836 byte, MD5 `0fea83cc2c2f6cfff9f5618e7c777b85`)
+[debs/com.bun.tubepro_1.17.5_iphoneos-arm.deb](debs/com.bun.tubepro_1.17.5_iphoneos-arm.deb) (2.974.592 byte, MD5 `c0dc76718cc4a80ec0ec4b17059eb73b`)
 
 Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.
 
@@ -26,7 +26,7 @@ Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.
 
 | Gói | Phiên bản | Ghi chú |
 |---|---|---|
-| com.bun.tubepro (TurboTV) | 1.17.4 | Tương thích iPhone/iPod touch (ảnh mở app cỡ iPhone 320x480/640x960/640x1136 + icon 57x57/114x114; bố cục màn hình hẹp <500pt: thanh logo 180x32, nút phát/tua nhỏ lại, mini player gọn; iPad giữ nguyên); iPod touch chạy được (không dùng API điện thoại/SIM). Giữ nguyên 1.17.3 (sửa lỗi LOGIN_REQUIRED ngẫu nhiên (tự seed lại visitorData mới rồi thử lại, tối đa 5 lần; áp dụng cả SABR); log chẩn đoán đăng nhập từng bước (lấy mã / chờ kích hoạt / lỗi Google); thử lại bằng client TV kèm token khi đã đăng nhập; sửa phát nền im ngay khi bấm Home (luôn kích hoạt âm thanh nền song song với PiP + ghi log trạng thái phát 1s/3s/10s sau khi vào nền). Giữ nguyên 1.17.2 (Back thu nhỏ mini player; lặp lại video; bấm Home tự vào PiP; sửa kẹt phát nền; sửa log ghi version; depiction cho Cydia/Sileo/Zebra; bố cục dists/ chuẩn Debian + Packages.xz) + donate PayPal thật (paypal.me/turboasi4n) + mã VietQR của 1.17.1 và mọi tính năng 1.17 |
+| com.bun.tubepro (TurboTV) | 1.17.5 | Sửa lỗi "lúc xem được lúc báo lỗi" (LOGIN_REQUIRED ngẫu nhiên): retry giãn cách 6 lượt VISIONOS → ANDROID (2s) → WEB (5s) → VISIONOS với visitorData mới (10s) → ANDROID với visitorData mới → TV kèm token khi đã đăng nhập; log từng lượt (client, visitorData 12 ký tự, trạng thái YouTube); sửa 2 lỗi khiến đăng nhập Google im lặng (poll token bị hủy khi mở Safari; lỗi mạng thoáng qua làm poll dừng hẳn); màn lỗi hiện đủ câu + nút "Thử lại". Menu phát kiểu Troubadour (Fill the screen, Reload video, Stats for nerds); màn phát thêm Chapters, Comments, số dislike; màn Cài đặt riêng kiểu Troubadour (tài khoản, ngôn ngữ, giao diện, video, chặn WARP, giới thiệu) + kiểm tra cập nhật trong Cài đặt (không popup tự động); vuốt xuống thu nhỏ video về mini player; nhấn giữ phát nhanh 2x; chụm 2 ngón phóng to; Shorts prefetch Short kế tiếp (chỉ link + thumbnail, không tải video về máy); mini player thành thẻ nổi góc dưới-phải. PO token/SABR vẫn chưa giải được (Google khóa key), WEB ẩn danh vẫn không lấy được stream. Giữ nguyên 1.17.4 (iPhone/iPod touch; bố cục màn hình hẹp) + 1.17.3 (sửa LOGIN_REQUIRED ngẫu nhiên; log chẩn đoán đăng nhập; sửa phát nền im khi bấm Home) + 1.17.2 (Back thu nhỏ mini player; lặp lại video; bấm Home tự vào PiP; sửa kẹt phát nền; sửa log ghi version; depiction cho Cydia/Sileo/Zebra; bố cục dists/ chuẩn Debian + Packages.xz) + donate PayPal thật (paypal.me/turboasi4n) + mã VietQR của 1.17.1 và mọi tính năng 1.17 |
 
 ## Cấu trúc repo
 

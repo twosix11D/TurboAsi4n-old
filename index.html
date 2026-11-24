@@ -14,7 +14,7 @@ h1{color:#00BFFF} h2{color:#00BFFF} a{color:#0077cc} code{background:#f0f0f0;pad
 <body>
 <h1>TurboTV — Repo</h1>
 <p>Repo chính thức của <b>TurboTV</b> — app xem YouTube 1080p cho iPad mini 1 (iOS 6 / iOS 9, chip A5) và iPad mini 2 (iOS 12). Dùng được với <b>Cydia, Sileo và Zebra</b> (cùng 1 URL source).</p>
-<p>Phiên bản hiện có: <b>TurboTV 1.17.4</b> (com.bun.tubepro) — tương thích iPhone/iPod touch (ảnh mở app + icon cỡ iPhone, bố cục màn hình hẹp). Giữ nguyên 1.17.3 (sửa lỗi LOGIN_REQUIRED ngẫu nhiên, log chẩn đoán đăng nhập, sửa phát nền im ngay khi bấm Home) + 1.17.2 (Back thu nhỏ mini player, lặp lại video, bấm Home tự vào PiP, sửa kẹt phát nền, sửa log ghi version) + donate PayPal thật (paypal.me/turboasi4n) + mã VietQR của 1.17.1 và mọi tính năng 1.17.</p>
+<p>Phiên bản hiện có: <b>TurboTV 1.17.5</b> (com.bun.tubepro) — sửa lỗi "lúc xem được lúc báo lỗi" (retry giãn cách 6 lượt + sửa đăng nhập Google im lặng + nút "Thử lại"); menu phát kiểu Troubadour (Fill the screen, Reload video, Stats for nerds); màn phát thêm Chapters, Comments, số dislike; màn Cài đặt riêng kiểu Troubadour + kiểm tra cập nhật trong Cài đặt; vuốt xuống thu nhỏ video, nhấn giữ phát nhanh 2x, chụm 2 ngón phóng to; Shorts load nhanh (prefetch Short kế tiếp); mini player thẻ nổi góc dưới-phải. Giữ nguyên 1.17.4 (iPhone/iPod touch, bố cục màn hình hẹp) + 1.17.3 (sửa LOGIN_REQUIRED ngẫu nhiên, log chẩn đoán đăng nhập, sửa phát nền im khi bấm Home) + 1.17.2 (Back thu nhỏ mini player, lặp lại video, bấm Home tự vào PiP, sửa kẹt phát nền, sửa log ghi version) + donate PayPal thật (paypal.me/turboasi4n) + mã VietQR của 1.17.1 và mọi tính năng 1.17.</p>
 
 <div class="warn"><b>Nhập đúng URL này</b> (có dấu <code>/</code> cuối, KHÔNG phải link github.com):<br><code>https://twosix11D.github.io/TurboAsi4n/</code></div>
 
@@ -25,7 +25,7 @@ h1{color:#00BFFF} h2{color:#00BFFF} a{color:#0077cc} code{background:#f0f0f0;pad
 <li>Mở <b>Cydia</b> → tab <b>Sources</b> → <b>Edit</b> → <b>Add</b>.</li>
 <li>Dán URL này rồi bấm <b>Add Source</b>:
 <br><code>https://twosix11D.github.io/TurboAsi4n/</code></li>
-<li>Chờ Cydia tải xong, vào repo <b>TurboTV</b> → cài <b>TurboTV 1.17.4</b>.</li>
+<li>Chờ Cydia tải xong, vào repo <b>TurboTV</b> → cài <b>TurboTV 1.17.5</b>.</li>
 </ol>
 
 <h2>Thêm repo vào Sileo</h2>
@@ -35,7 +35,7 @@ h1{color:#00BFFF} h2{color:#00BFFF} a{color:#0077cc} code{background:#f0f0f0;pad
 <li>Mở <b>Sileo</b> → tab <b>Sources</b> → bấm dấu <b>+</b> (góc trên).</li>
 <li>Dán URL này rồi bấm <b>Add Source</b>:
 <br><code>https://twosix11D.github.io/TurboAsi4n/</code></li>
-<li>Chờ Sileo <b>Refresh</b> xong, tìm <b>TurboTV</b> → cài bản <b>1.17.4</b>.</li>
+<li>Chờ Sileo <b>Refresh</b> xong, tìm <b>TurboTV</b> → cài bản <b>1.17.5</b>.</li>
 </ol>
 <p><small>Lưu ý: Sileo tìm file Release theo đường chuẩn <code>dists/stable/Release</code> — repo này đã có đủ bố cục chuẩn (dists/ + Packages.xz) từ bản 1.17.2. Nếu Sileo báo lỗi, chụp màn hình lỗi gửi nhà phát triển.</small></p>
 
@@ -46,14 +46,14 @@ h1{color:#00BFFF} h2{color:#00BFFF} a{color:#0077cc} code{background:#f0f0f0;pad
 <li>Mở <b>Zebra</b> → tab <b>Sources</b> → <b>Add</b>.</li>
 <li>Dán URL này rồi bấm <b>Add</b>:
 <br><code>https://twosix11D.github.io/TurboAsi4n/</code></li>
-<li>Chờ Zebra tải xong, tìm <b>TurboTV</b> → cài bản <b>1.17.4</b>.</li>
+<li>Chờ Zebra tải xong, tìm <b>TurboTV</b> → cài bản <b>1.17.5</b>.</li>
 </ol>
 
 <h2>Trang mô tả gói</h2>
 <p><a href="depiction.html">depiction.html</a> (Cydia/Zebra) · <a href="depiction.json">depiction.json</a> (Sileo native)</p>
 
 <h2>Tải trực tiếp file .deb</h2>
-<p><a href="debs/com.bun.tubepro_1.17.4_iphoneos-arm.deb">com.bun.tubepro_1.17.4_iphoneos-arm.deb</a> (2.915.836 byte, MD5 <code>0fea83cc2c2f6cfff9f5618e7c777b85</code>)</p>
+<p><a href="debs/com.bun.tubepro_1.17.5_iphoneos-arm.deb">com.bun.tubepro_1.17.5_iphoneos-arm.deb</a> (2.974.592 byte, MD5 <code>c0dc76718cc4a80ec0ec4b17059eb73b</code>)</p>
 <p>Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.</p>
 
 <p><small>Repo: <a href="https://github.com/twosix11D/TurboAsi4n">github.com/twosix11D/TurboAsi4n</a></small></p>

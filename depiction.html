@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TurboTV 1.17.4 — Depiction</title>
+<title>TurboTV 1.17.5 — Depiction</title>
 <style>
 body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:16px;color:#222;line-height:1.6;background:#fff}
 h1{color:#00BFFF;margin:8px 0 0} h2{color:#00BFFF;border-bottom:1px solid #eee;padding-bottom:4px}
@@ -19,11 +19,11 @@ small{color:#888}
 <body>
 <img class="icon" src="CydiaIcon.png" alt="TurboTV icon">
 <h1 style="text-align:center">TurboTV</h1>
-<p style="text-align:center"><b>Phiên bản 1.17.4</b> · com.bun.tubepro · Nhà phát triển: Bun</p>
+<p style="text-align:center"><b>Phiên bản 1.17.5</b> · com.bun.tubepro · Nhà phát triển: Bun</p>
 
 <table>
 <tr><td>Tương thích</td><td>iOS 6.0 trở lên — iPad mini 1 (iOS 6 / iOS 9, chip A5), iPad mini 2 (iOS 12), iPhone và iPod touch</td></tr>
-<tr><td>Dung lượng</td><td>2.915.836 byte tải về (~2,9 MB) · ~3,9 MB sau khi cài</td></tr>
+<tr><td>Dung lượng</td><td>2.974.592 byte tải về (~2,9 MB) · ~4,0 MB sau khi cài</td></tr>
 <tr><td>Repo</td><td><a href="https://twosix11D.github.io/TurboAsi4n/">twosix11D.github.io/TurboAsi4n/</a></td></tr>
 <tr><td>Mã nguồn</td><td><a href="https://github.com/twosix11D/TurboAsi4n">github.com/twosix11D/TurboAsi4n</a></td></tr>
 </table>
@@ -36,6 +36,18 @@ small{color:#888}
 <li>Mini player trong app + PiP hệ thống (iOS 9+)</li>
 <li>Lặp lại video, hẹn giờ tắt 15–90 phút</li>
 <li>Đăng nhập Google (device flow, không lưu mật khẩu)</li>
+</ul>
+
+<h2>Có gì mới trong 1.17.5</h2>
+<ul>
+<li><b>Sửa lỗi "lúc xem được lúc báo lỗi" (LOGIN_REQUIRED ngẫu nhiên):</b> thử lại giãn cách 6 lượt — VISIONOS → ANDROID sau 2s → WEB sau 5s → VISIONOS với visitorData mới sau 10s → ANDROID với visitorData mới → TV kèm token khi đã đăng nhập; mỗi lượt ghi log đầy đủ (client, visitorData, trạng thái YouTube trả về). Sửa 2 lỗi khiến đăng nhập Google im lặng (poll token bị hủy khi mở Safari; lỗi mạng thoáng qua làm poll dừng hẳn). Màn hình lỗi hiện đủ câu + nút "Thử lại". Lưu ý: PO token/SABR vẫn chưa giải được (Google khóa key) nên WEB ẩn danh vẫn không lấy được stream — đường ổn định lâu dài là đăng nhập.</li>
+<li><b>Menu phát kiểu Troubadour:</b> thêm Fill the screen, Reload video, Stats for nerds (vào menu ⚙️ trong màn phát).</li>
+<li><b>Màn phát:</b> thêm Chapters (phân cảnh, bấm để nhảy tới), Comments và số dislike bên dưới video.</li>
+<li><b>Cài đặt kiểu Troubadour:</b> màn Cài đặt riêng (tài khoản, ngôn ngữ, giao diện, video, chặn WARP, giới thiệu) + kiểm tra cập nhật trong Cài đặt (hiện phiên bản đang chạy, bấm để kiểm tra từ repo, không hiện popup tự động khi mở app).</li>
+<li><b>Cử chỉ mới:</b> vuốt xuống nhanh để thu nhỏ video về mini player; nhấn giữ để phát nhanh 2x (buông tay về tốc độ cũ); chụm 2 ngón phóng to video.</li>
+<li><b>Shorts load nhanh:</b> tự chuẩn bị trước Short kế tiếp (chỉ lấy link + ảnh, không tải video về máy).</li>
+<li><b>Mini player:</b> thành thẻ nổi góc dưới-phải kiểu YouTube (ảnh video + tiêu đề + nút tạm dừng/đóng).</li>
+<li>Giữ nguyên mọi tính năng 1.17.4 (iPhone/iPod touch, bố cục màn hình hẹp).</li>
 </ul>
 
 <h2>Có gì mới trong 1.17.4</h2>
