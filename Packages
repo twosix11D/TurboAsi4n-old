@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: Bun
 Installed-Size: 1904
 Filename: debs/com.bun.tubepro_1.15.2_iphoneos-arm.deb
-Size: 835984
-MD5sum: 1eef027e7f0baf984ca841ecbf6f61ba
-SHA1: 78f6f55b1afb15f15ce36123c97c48c9526f74d9
-SHA256: 810dd6a076157ca6414fe9c1a34857adaaa035083d7c7d69dd4e1c305d89e819
+Size: 972556
+MD5sum: 27e70e95cdfb2c4c2ce8b0ddbde2ba3c
+SHA1: 0c785b13e01e9b2a045f0ef5b3895de5b5d8d176
+SHA256: b71936e8640a27d9286a5a0d4dfa7869068da2a3905cd73b234ebad848c32024
 Section: Multimedia
 Description: YouTube client for iOS 6 + iOS 12 - 1080p playback on iPad mini 1 (armv7) and mini 2 (arm64). v1.15.2: sua crash khi tua — bo qua SIGPIPE (AVPlayer huy request segment giua luc tua, thread proxy write() len socket da dong chet app lang; gio chi tra EPIPE). Giu nguyen tinh nang v1.15.1 (fix crash tua nhanh, 4 theme glass, lich su xem, splash khong phu de). Giu VISIONOS 1.02 lay stream (v1.13) + giao dien phat v1.14. Universal armv7+arm64.
 Author: Bun

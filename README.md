@@ -14,7 +14,7 @@ Rồi vào repo **TurboTV** và cài **TurboTV 1.15.2**.
 
 ## Tải trực tiếp file .deb
 
-[debs/com.bun.tubepro_1.15.2_iphoneos-arm.deb](debs/com.bun.tubepro_1.15.2_iphoneos-arm.deb) (835.984 byte, MD5 `1eef027e7f0baf984ca841ecbf6f61ba`)
+[debs/com.bun.tubepro_1.15.2_iphoneos-arm.deb](debs/com.bun.tubepro_1.15.2_iphoneos-arm.deb) (972.556 byte, MD5 `27e70e95cdfb2c4c2ce8b0ddbde2ba3c`)
 
 Chép file .deb sang iPad rồi mở bằng Filza → Cài đặt → Respring.
 
