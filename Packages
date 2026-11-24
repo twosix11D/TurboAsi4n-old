@@ -1,15 +1,15 @@
 Package: com.bun.tubepro
-Version: 1.15.2
+Version: 1.16
 Architecture: iphoneos-arm
 Maintainer: Bun
-Installed-Size: 1904
-Filename: debs/com.bun.tubepro_1.15.2_iphoneos-arm.deb
-Size: 972556
-MD5sum: 27e70e95cdfb2c4c2ce8b0ddbde2ba3c
-SHA1: 0c785b13e01e9b2a045f0ef5b3895de5b5d8d176
-SHA256: b71936e8640a27d9286a5a0d4dfa7869068da2a3905cd73b234ebad848c32024
+Installed-Size: 3120
+Filename: debs/com.bun.tubepro_1.16_iphoneos-arm.deb
+Size: 2148216
+MD5sum: 58e7c7095cf4f8c78f8e3eafc8f2f2e9
+SHA1: 58c1e60d812cad8090d902fb432b6eec56ad20de
+SHA256: dd03902c4d23d52627b9b1e19670dfdf80fab17d6b786af1d11a85244e2b8e58
 Section: Multimedia
-Description: YouTube client for iOS 6 + iOS 12 - 1080p playback on iPad mini 1 (armv7) and mini 2 (arm64). v1.15.2: sua crash khi tua — bo qua SIGPIPE (AVPlayer huy request segment giua luc tua, thread proxy write() len socket da dong chet app lang; gio chi tra EPIPE). Giu nguyen tinh nang v1.15.1 (fix crash tua nhanh, 4 theme glass, lich su xem, splash khong phu de). Giu VISIONOS 1.02 lay stream (v1.13) + giao dien phat v1.14. Universal armv7+arm64.
+Description: YouTube client for iOS 6 + iOS 12 - 1080p playback on iPad mini 1 (armv7) and mini 2 (arm64). v1.16: sua crash mo app (guard objectForKey o lich su/WARP/SABR + breadcrumb), bo vach ngan giua cac hang, the video glass bo tron, Shorts day du (avatar, dang ky, like, chia se, mo ta mo rong), thanh dieu khien + drawer co dinh, dang nhap Google bang ma kich hoat (device flow, Troubadour), phat am thanh duoi nen that (setActive + Control Center/lock screen), mini player trong app + PiP iOS 9, icon + splash logo Long gui (Splash C). Giu nguyen 1.15.2 (SIGPIPE fix, VISIONOS 1.02, 4 theme glass, lich su xem). Universal armv7+arm64.
 Author: Bun
 Name: TurboTV
 
